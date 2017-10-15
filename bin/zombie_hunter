@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'zombie_hunter'
+
+ZombieHunter::CLI.start

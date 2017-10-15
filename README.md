@@ -22,7 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Make a zombie process
+
+
+```
+$ zombie_hunter make_zombie
+```
+
+Confirm the zombie process
+
+```
+% ps -ho pid,stat,comm                                                                                                                                                                                                           (git)-[master]
+  PID STAT COMM
+16320 Z+   (date)
+```
 
 ## Development
 
